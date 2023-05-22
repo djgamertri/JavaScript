@@ -90,7 +90,7 @@ h1{
 }
 /* Vista Desktop */
 
-@media screen and (min-width: 1308px){
+@media screen and (min-width: 1024px){
     .grid {
         display: grid;
         align-items: center;
