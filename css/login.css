@@ -106,7 +106,7 @@ h1{
 
 /* vista para desktop */
 
-@media screen and (min-width: 1308px){
+@media screen and (min-width: 1024px){
  .form{
     width: 35vw;
     height: 75vh;
