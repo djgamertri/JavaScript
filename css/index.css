@@ -14,6 +14,7 @@
 }
 * {
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -96,6 +97,78 @@ nav a:hover {
   min-height: 400px;
   margin-top: 60px;
 }
+
+#features {
+  background: url(../img/index/bg-features.png);
+  color: white;
+  padding-top: 1rem;
+}
+
+.features-title {
+  background-color: rgba(0, 0, 0, 0.35);
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1.5em;
+}
+
+.features-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.feature {
+  width: 25%;
+  min-width: 180px;
+  max-width: 230px;
+  margin: 0.8rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.feature i {
+  font-size: 2.2em;
+  margin-bottom: 1.5rem;
+}
+
+.feature-blue {
+  background-color: #00325eae;
+}
+
+.feature-black {
+  background-color: rgba(0, 0, 0, 0.59);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slider-container img {
+  width: 100%;
+  height: auto;
+}
+
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.slider-controls button {
+  margin: 0 5px;
+}
+
+
 /*Resolución tabletas*/
 @media screen and (min-width: 768px) {
   nav {
@@ -132,5 +205,5 @@ nav a:hover {
   .navbar-button {
     background-color: var(--azuloscuro);
     align-self: center;
-  }
+  } 
 }
