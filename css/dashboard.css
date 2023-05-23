@@ -108,10 +108,7 @@ body{
     -webkit-box-shadow: 2px 3px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 3px 20px -7px rgba(0,0,0,0.75);
 }
-.Condiciones{
-    margin-top: 10px;
-    text-align: center;
-}
+
 button{
     width: 30%;
     padding: 10px;
