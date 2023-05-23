@@ -40,6 +40,10 @@ nav {
   height: 3rem;
 }
 
+.logo i{
+  display: none;
+}
+
 .item {
   padding: 1rem;
 }
