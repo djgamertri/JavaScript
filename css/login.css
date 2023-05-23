@@ -6,7 +6,7 @@
     font-size: 16px;
 }
 body{
-    background: url(./img/login/bg-login.png);
+    background: url(/img/login/bg-login.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
