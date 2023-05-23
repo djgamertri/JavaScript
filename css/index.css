@@ -145,7 +145,7 @@ nav {
 /* Novedades */
 
 #features {
-  background: url(/img/index/bg-features.png);
+  background: url(../img/index/bg-features.png);
   color: white;
   padding-top: 1rem;
 }
