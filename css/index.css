@@ -321,6 +321,7 @@ hr {
     max-width: 180px;
   }
   .logo i {
+    display: block;
     grid-area: menu-bars;
     justify-self: end;
     color: var(--blanco);
